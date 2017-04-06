@@ -98,6 +98,7 @@ public class CustomerView extends View {
                     customer.setName(input);
                 } else if (choice == 2) {
                     System.out.println("Enter new inn for the customer  ");
+                    getInput();
                     customer.setInn(Integer.parseInt(input));
                 } else if (choice == 3) {
                     System.out.println("Enter new edrpou for the customer  ");

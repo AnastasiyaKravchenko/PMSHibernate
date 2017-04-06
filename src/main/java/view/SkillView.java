@@ -1,7 +1,7 @@
-package main.java.view;
+package view;
 
-import main.java.hibernate.HibernateSkillDAO;
-import main.java.model.Skill;
+import hibernate.HibernateSkillDAO;
+import model.Skill;
 
 import java.io.IOException;
 

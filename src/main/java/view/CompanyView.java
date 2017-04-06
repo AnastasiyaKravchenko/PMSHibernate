@@ -1,7 +1,7 @@
-package main.java.view;
+package view;
 
-import main.java.hibernate.HibernateCompanyDAO;
-import main.java.model.Company;
+import hibernate.HibernateCompanyDAO;
+import model.Company;
 
 import java.io.IOException;
 

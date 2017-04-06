@@ -1,7 +1,7 @@
-package main.java.view;
+package view;
 
-import main.java.hibernate.HibernateDeveloperDAO;
-import main.java.model.Developer;
+import hibernate.HibernateDeveloperDAO;
+import model.Developer;
 
 import java.io.IOException;
 

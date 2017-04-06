@@ -1,13 +1,15 @@
-package main.java.model;
+package model;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
 /**
  * Created by Mala on 3/28/2017.
  */
 @Entity
 @Table(name = "skills")
-public class Skill extends BaseEntity{
+public class Skill extends BaseEntity {
 
     @Column(name = "description")
     private String description;

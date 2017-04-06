@@ -1,7 +1,7 @@
-package main.java.view;
+package view;
 
-import main.java.hibernate.HibernateCustomerDAO;
-import main.java.model.Customer;
+import hibernate.HibernateCustomerDAO;
+import model.Customer;
 
 import java.io.IOException;
 

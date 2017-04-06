@@ -1,4 +1,4 @@
-package main.java.hibernate;
+package hibernate;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

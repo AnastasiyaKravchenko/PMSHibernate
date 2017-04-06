@@ -1,6 +1,6 @@
-package main.java.JDBC;
+package JDBC;
 
-import main.java.model.Developer;
+import model.Developer;
 
 /**
  * Created by Mala on 3/29/2017.

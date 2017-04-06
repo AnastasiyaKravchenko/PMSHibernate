@@ -1,8 +1,9 @@
-package main.java.model;
+package model;
 
+
+import model.BaseEntity;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package main.java.JDBC;
+package JDBC;
 
 /**
  * Created by Mala on 3/29/2017.

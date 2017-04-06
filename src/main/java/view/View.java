@@ -1,6 +1,6 @@
-package main.java.view;
+package view;
 
-import main.java.hibernate.HibernateSessionFactory;
+import hibernate.HibernateSessionFactory;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

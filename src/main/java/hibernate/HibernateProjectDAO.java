@@ -1,7 +1,7 @@
-package main.java.hibernate;
+package hibernate;
 
-import main.java.JDBC.ProjectDAO;
-import main.java.model.Project;
+import JDBC.ProjectDAO;
+import model.Project;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;

@@ -1,7 +1,7 @@
-package main.java.hibernate;
+package hibernate;
 
-import main.java.JDBC.CompanyDAO;
-import main.java.model.Company;
+import JDBC.CompanyDAO;
+import model.Company;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
@@ -23,7 +23,8 @@ public class HibernateCompanyDAO implements CompanyDAO {
 //    public List<Company> getAll() {
 //        try (Session session = sessionFactory.openSession()) {
 //
-//            return (List<Company>) session.createQuery("FROM Company").list();
+////            return (List<Company>) session.createQuery("FROM Company").list();
+//            return null;
 //        }
 //    }
 

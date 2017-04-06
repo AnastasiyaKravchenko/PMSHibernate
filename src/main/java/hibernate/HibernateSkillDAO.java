@@ -1,11 +1,13 @@
-package main.java.hibernate;
+package hibernate;
 
-import main.java.JDBC.SkillDAO;
-import main.java.model.Skill;
+import JDBC.SkillDAO;
+import model.Skill;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.List;
 
 /**
  * Created by Mala on 3/29/2017.
@@ -19,12 +21,12 @@ public class HibernateSkillDAO implements SkillDAO {
     }
 
 
-//    public List<Skill> getAll() {
-//        try (Session session = sessionFactory.openSession()) {
-//
-//            return (List<Skill>) session.createQuery("FROM Skill").list();
-//        }
-//    }
+    public List<Skill> getAll() {
+        try (Session session = sessionFactory.openSession()) {
+
+            return (List<Skill>) session.createQuery("FROM Skill").list();
+        }
+    }
 
     @Override
     public Skill getByID(Long id) {

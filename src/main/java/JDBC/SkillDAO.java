@@ -1,6 +1,6 @@
-package main.java.JDBC;
+package JDBC;
 
-import main.java.model.Skill;
+import model.Skill;
 
 /**
  * Created by Mala on 3/29/2017.

@@ -23,10 +23,10 @@ public class Customer extends BaseEntity {
     private int edrpou;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer")
-    @JoinTable(
-            name = "project_customer",
-            joinColumns = @JoinColumn(name = "customers_id"),
-            inverseJoinColumns = @JoinColumn(name = "project_id"))
+//    @JoinTable(
+//            name = "project_customer",
+//            joinColumns = @JoinColumn(name = "customers_id"),
+//            inverseJoinColumns = @JoinColumn(name = "project_id"))
     private List<Project> projectList = new ArrayList<>();
 
     public Customer() {

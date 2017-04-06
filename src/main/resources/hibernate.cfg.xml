@@ -9,7 +9,8 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.id.new_generator_mappings">false</property>
 
         <mapping class="model.Company" />
         <mapping class="model.Customer" />

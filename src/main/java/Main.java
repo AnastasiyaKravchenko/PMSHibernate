@@ -1,6 +1,5 @@
-package main.java;
 
-import main.java.view.ConsoleHelper;
+import view.ConsoleHelper;
 
 /**
  * Created by Mala on 3/30/2017.
